@@ -1,6 +1,6 @@
 # FAQ
 
-{{indexmenu_n>6}}
+
 
 ## Kimpi0进程为何占用了大量CPU资源？
 
