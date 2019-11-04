@@ -88,7 +88,7 @@
 物理云主机支持监控功能，监控指标与云主机一致。
 
 但是，请安装监控代理（UCloud Monitor Agent）。具体步骤参考
-[监控代理说明文档](..//../management_monitor/umon/guide/agent)
+[监控代理说明文档](/management_monitor/umon/guide/agent)
 
 备注：Windows物理云主机暂不支持此功能。
 
