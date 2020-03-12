@@ -7,7 +7,9 @@
     * [镜像](compute/uphost/concepts/image)
     * [网络和安全](compute/uphost/concepts/network)
     * [RAID](compute/uphost/concepts/raid)
-* [机型](compute/uphost/type)
+* 机型
+    * [常规机型](compute/uphost/type/normal)
+    * [裸金属服务器](compute/uphost/type/baremetal)
 * [操作指南](compute/uphost/common)
 * [使用注意事项](compute/uphost/notice)
 * [性能测试](compute/uphost/io_uphost)
