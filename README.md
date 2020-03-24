@@ -1,6 +1,6 @@
-<div class="sidebar_title icon__uphost"> 物理云主机 UPHost</div>
+# 概览
 
-* [概览](/uphost/README)
+
 * 产品简介
     * [什么是物理云主机？](/uphost/concepts/uphost)
     * [产品优势](/uphost/concepts/advantages)
