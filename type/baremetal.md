@@ -17,9 +17,10 @@
 
 | 机型名称        | 配置详情 | 价格（元/月/台） | 可用区 |
 | ---------- | --- | ----- |----- |
-| 基础型-SSD-V5   | CPU：Intel Silver 4110 Skylake (32核)<br>内存：64G<br>系统盘：1.2T SAS *2<br>数据盘：480G SSD *6| 4000 |华北（北京）C|
-| 高配SSD型-5.8T-V5   | CPU：Intel Gold 6126 Skylake (48核)<br>内存：192G<br>系统盘：1.2T SAS *2<br>数据盘：960G SSD *6| 6600 |华北（北京）B、C|
-| 高配容量型-96T-V5   | CPU：Intel Gold 5118 Skylake (48核)<br>内存：192G<br>系统盘：240G SSD *2<br>数据盘：8T SATA *12| 6500 |华北（北京）B|
+| 基础型-SSD-V5   | CPU：Intel Silver 4110 Skylake (32核)<br>内存：64G<br>系统盘：1.2T SAS *2<br>数据盘：480G SSD *6| 4000 |华北（北京）B、C、E|
+| 高配SSD型-5.8T-V5   | CPU：Intel Gold 6126 Skylake (48核)<br>内存：192G<br>系统盘：1.2T SAS *2<br>数据盘：960G SSD *6| 6600 |华北（北京）B、C、E|
+| 高配容量型-96T-V5   | CPU：Intel Gold 5118 Skylake (48核)<br>内存：192G<br>系统盘：240G SSD *2<br>数据盘：8T SATA *12| 6500 |华北（北京）B、E|
+| 容量型-96T-V6   | CPU：Intel Silver 4210R Cascade Lake (40核)<br>内存：192G<br>系统盘：480G SSD *2<br>数据盘：8T SATA *12| 6500 |华北（北京）B、C、E|
 
 备注：更多机型以及可用区需求，可详询客户经理。
 
