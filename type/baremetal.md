@@ -18,6 +18,7 @@
 | 机型名称        | 配置详情 | 价格（元/月/台） | 可用区 |
 | ---------- | --- | ----- |----- |
 | 基础型-SSD-V5   | CPU：Intel Silver 4110 (32核)<br>内存：64G<br>系统盘：1.2T SAS *2<br>数据盘：480G SSD *6| 4000 |华北（北京）B、C、E|
+| 通用SSD型-5.8T-V5   | CPU：Intel Silver 4110 (32核)<br>内存：128G<br>系统盘：1.2T SAS *2<br>数据盘：960G SSD *6| 5000 |华北（北京）B、C、E|
 | 高配SSD型-5.8T-V5   | CPU：Intel Gold 6126 (48核)<br>内存：192G<br>系统盘：1.2T SAS *2<br>数据盘：960G SSD *6| 6600 |华北（北京）B、C、E|
 | 高配容量型-96T-V5   | CPU：Intel Gold 5118 (48核)<br>内存：192G<br>系统盘：240G SSD *2<br>数据盘：8T SATA *12| 6500 |华北（北京）B、E|
 | 容量型-96T-V6   | CPU：Intel Silver 4210R (40核)<br>内存：192G<br>系统盘：480G SSD *2<br>数据盘：8T SATA *12| 6500 |华北（北京）B、C、E|
