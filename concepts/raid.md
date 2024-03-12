@@ -3,8 +3,8 @@
 # RAID
 
 RAID，即磁盘阵列（Redundant Arrays of Independent
-Drives）。是指通过磁盘阵列卡将多块磁盘组合，以提升磁盘IO能力，或提供冗余。UCloud物理云提供RAID
-1,0,10,5 与 NoRaid 5种不同的RAID选项，可以在创建/重装物理云主机时进行选择。
+Drives）。是指通过磁盘阵列卡将多块磁盘组合，以提升磁盘IO能力，或提供冗余。UCloud裸金属云主机提供RAID
+1,0,10,5 与 NoRaid 5种不同的RAID选项，可以在创建/重装裸金属云主机时进行选择。
 
 ## RAID 1
 
