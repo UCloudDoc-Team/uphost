@@ -10,6 +10,10 @@
 * 机型
     * [本地盘裸金属云主机](/uphost/type/normal)
     * [云盘裸金属云主机](/uphost/type/baremetal)
+* 计费说明
+    * [续费](/uphost/bill/renew)
+    * [回收](/uphost/bill/recycle)
+    * [删除](/uphost/bill/delete)
 * [操作指南](/uphost/common)
 * [使用注意事项](/uphost/notice)
 * [性能测试](/uphost/io_uphost)
