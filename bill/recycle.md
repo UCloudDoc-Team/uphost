@@ -8,6 +8,8 @@
 
 设置通知人：https://console.ucloud.cn/uaccount/costcenter
 
+![image](/images/recycle.png)
+
 ## 回收策略
 
 不同计费方式的资源回收策略详见下表：（ 注： t0 为资源过期时间；裸金属产品的“停服”是指“关机”）
