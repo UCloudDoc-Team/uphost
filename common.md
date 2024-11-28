@@ -80,28 +80,22 @@
 
 一、安装NVIDIA驱动
 
-1、下载最新驱动：
-
-    wget  http://ucloud.mirrors.ucloud.cn/ubuntu/upm_monitor/NVIDIA-Linux-x86_64-384.90.run
-
-2、安装依赖包：
-
-    ubuntu:    apt-get install gcc make
-    yum:    yum install gcc make
-
-3、安装NVIDIA驱动
-
-``` 
-chmod 775 NVIDIA-Linux-x86_64-384.90.run
-./NVIDIA-Linux-x86_64-384.90.run
-
-按提示accept/OK/Yes 等完成安装
-
-```
-
-4、测试是否正常
-
-    nvidia-smi
+1. [访问NVIDIA官网获取下载地址](https://www.nvidia.com/download/index.aspx?lang=cn)
+   - 产品家族选择具体机型
+   - CUDA ToolKit选择驱动支持的CUDA版本，没有选择则是默认版本
+2. 选择完成后，点击搜索→下载，复制链接地址（下图以A100为例：）
+     ![image](/images/downloadnv1.png)</br>
+     ![image](/images/downloadnv2.png)</br>
+     ![image](/images/downloadnv3.png)</br>
+3. 进入主机
+   - 执行命令下载驱动(wget后面是复制的链接地址)：`wget {上一步复制的链接地址}`
+   - 检查gcc、make软件库是否安装，及安装gcc 和 make
+   ```sh
+   ## which make 检测make是否安装, 安装命令 # sudo apt-get install make
+   ## gcc --version  检测gcc是否安装, 安装命令 # sudo apt-get install gcc
+   ```  
+4. 开始安装：执行`sh NVIDIA-xxxxxxx.run `，即开始安装驱动，注：遇到权限问题命令前添加sudo即可
+5. 验证nvidia驱动：执行 `nvidia-smi`
 
 二、安装uma
 
