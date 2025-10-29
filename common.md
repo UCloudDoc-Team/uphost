@@ -69,10 +69,11 @@
 
 裸金属云主机支持监控功能，监控指标与云主机一致。
 
-但需要安装监控代理（UCloud Monitor Agent），具体步骤参考
-[监控代理说明文档](https://docs.ucloud.cn/cloudwatch/uboltagent/UboltAgent_Linux_Installation_Guide)
+需要安装监控代理（UCloud Monitor Agent），具体步骤参考
+[监控代理说明文档](https://docs.ucloud.cn/cloudwatch/uboltagent/UboltAgent_Linux_Installation_Guide)；
+**请注意**：当前仅部分机型支持安装，您可前往[支持的裸金属机型列表](https://docs.ucloud.cn/cloudwatch/uboltagent/GPUPHostList)查询您的裸金属实例是否支持安装，如果不支持，请联系您的客服经理，我们会尽快安排适配。
 
-**备注：** Windows裸金属云主机暂不支持此功能。
+
 
 ## GPU裸金属云主机安装温度监控
 
@@ -97,8 +98,8 @@
 4. 开始安装：执行`sh NVIDIA-xxxxxxx.run `，即开始安装驱动，注：遇到权限问题命令前添加sudo即可
 5. 验证nvidia驱动：执行 `nvidia-smi`
 
-二、安装uma
+二、安装监控agent
 
-官方文档：<[https://docs.ucloud.cn/umon/agent](https://docs.ucloud.cn/cloudwatch/uboltagent/UboltAgent_Linux_Installation_Guide)>
+[监控代理说明文档](https://docs.ucloud.cn/cloudwatch/uboltagent/UboltAgent_Linux_Installation_Guide)
 
 告警设置在监控-\>监控模板中，可额外添加GPU温度项目，推荐将告警阈值设置为90℃。
