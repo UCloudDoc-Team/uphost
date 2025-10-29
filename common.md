@@ -70,7 +70,7 @@
 裸金属云主机支持监控功能，监控指标与云主机一致。
 
 但需要安装监控代理（UCloud Monitor Agent），具体步骤参考
-[监控代理说明文档](https://docs.ucloud.cn/umon/guide/resource)
+[监控代理说明文档](https://docs.ucloud.cn/cloudwatch/uboltagent/UboltAgent_Linux_Installation_Guide)
 
 **备注：** Windows裸金属云主机暂不支持此功能。
 
@@ -99,6 +99,6 @@
 
 二、安装uma
 
-官方文档：<https://docs.ucloud.cn/umon/agent>
+官方文档：<[https://docs.ucloud.cn/umon/agent](https://docs.ucloud.cn/cloudwatch/uboltagent/UboltAgent_Linux_Installation_Guide)>
 
 告警设置在监控-\>监控模板中，可额外添加GPU温度项目，推荐将告警阈值设置为90℃。
